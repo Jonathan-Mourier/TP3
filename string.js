@@ -8,3 +8,5 @@ function truncate(s,n){
     return text+"...";
 }
 
+
+
