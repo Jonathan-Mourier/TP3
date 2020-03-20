@@ -5,7 +5,13 @@ function repeat(s,n){
 
 function truncate(s,n){
     let text = s.slice(0,n-3);
-    return text+"...";
+    if (s.length==n){
+        return s;
+    }
+    if (!(s==text)){
+        return text+"...";
+    }
+    return text;
 }
 
 
